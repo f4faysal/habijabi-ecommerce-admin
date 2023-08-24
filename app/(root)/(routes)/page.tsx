@@ -13,18 +13,7 @@ const SetupPage = () => {
     }
   }, [isOpen, onOpen]);
 
-  return (
-    <div className="p-4">
-      <p>Root Page</p>
-      {/* <UserButton afterSignOutUrl="/" />
-      <Modal
-        title="test"
-        description="test to create an account"
-        isOpen={true}
-        onClose={() => {}}
-      ></Modal> */}
-    </div>
-  );
+  return null;
 };
 
 export default SetupPage;
